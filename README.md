@@ -1,49 +1,53 @@
 # Pemrograman Web - OBE (Outcome-Based Education)
 
 ## Identitas Mata Kuliah
+
 - **Mata Kuliah:** Pemrograman Web
 - **Program Studi:** Teknik Komputer
 - **Perguruan Tinggi:** Universitas Borneo Tarakan
-- **Nama / NPM:** [2440304035] / [2440304035]
+- **Nama / NPM:** Muhammad Agus Alamsyah / 2440304035
 
 ---
 
 ## Deskripsi Singkat Proyek
-Proyek **pemweb-obe** ini merupakan aplikasi berbasis web yang dikembangkan untuk mendukung implementasi Kurikulum berbasis *Outcome-Based Education* (OBE). Sistem ini dirancang untuk mempermudah pengelolaan data modul, tugas, serta penilaian capaian pembelajaran mahasiswa secara tersistem.
+
+Proyek **pemweb-obe** merupakan halaman web sederhana yang dibuat untuk memenuhi tugas praktikum Pemrograman Web. Halaman ini berisi struktur HTML5, navigasi, informasi praktikum, gambar, dan form kontak.
 
 ---
 
 ## Teknologi yang Digunakan
-- **Web Server & Environment:** Laragon (Apache / Nginx)
-- **Programming Language:** PHP / HTML / CSS / JavaScript
-- **Database:** MySQL / MariaDB
+
+- **Web Server & Environment:** Laragon 5
+- **Programming Language:** HTML
 - **Version Control System:** Git & GitHub
 
 ---
 
-## Cara Menjalankan Proyek Melalui Laragon
+## Cara Menjalankan Proyek Melalui Laragon 5
 
-1. **Instalasi dan Penempatan Berkas:**
-   - Pastikan aplikasi **Laragon** sudah terpasang di komputer.
-   - Pindahkan/kloning folder proyek ini ke direktori root Laragon:
-     ```text
-     C:\laragon\www\pemweb-obe
-     ```
-
-2. **Menjalankan Service Laragon:**
-   - Buka aplikasi **Laragon**.
-   - Klik tombol **Start All** untuk mengaktifkan layanan Apache/Nginx dan MySQL.
-
-3. **Pengaturan Database (Jika Diperlukan):**
-   - Buka Database Manager (HeidiSQL/phpMyAdmin) melalui tombol **Database** di Laragon.
-   - Impor basis data terkait jika tersedia.
+1. Pastikan Laragon 5 sudah terpasang.
+2. Letakkan folder project di:
+   `C:\laragon\www\pemweb-obe`
+3. Buka Laragon.
+4. Klik **Start All**.
+5. Buka browser.
+6. Akses:
+   `http://pemweb-obe.test`
 
 ---
 
-## URL Akses Lokal
+## Fitur yang Sudah Selesai
 
-Aplikasi dapat diakses melalui peramban (browser) dengan URL berikut:
+- Struktur HTML5 dengan `header`, `nav`, `main`, `section`, `article`, dan `footer`.
+- Heading menggunakan `h1`, `h2`, dan `h3`.
+- Menambahkan gambar dengan atribut `alt`.
+- Form kontak dengan `label` yang terhubung dengan input.
+- Navigasi menggunakan tombol Tab.
+- Repository menggunakan Git dengan branch `feature/struktur-home`.
 
-- **Auto-Virtual Host Laragon:**
-  ```text
-  [http://pemweb-obe.test](http://pemweb-obe.test)
+---
+
+## AI Usage Log
+
+AI digunakan untuk membantu memahami struktur HTML, penggunaan heading, atribut `alt`, pembuatan form kontak, dan navigasi keyboard. Hasil dari bantuan AI dicek kembali dan disesuaikan dengan kebutuhan tugas praktikum.
+
